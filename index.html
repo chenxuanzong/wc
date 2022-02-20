@@ -4,10 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.6.0/webcomponents-loader.js"></script>
     <title>Document</title>
+    <style>
+      p {
+        color: red;
+      }
+    </style>
   </head>
   <body>
+    <!-- <iframe id="frame"></iframe> -->
+    <!-- <my-element>自定义元素</my-element> -->
+
+    <!-- <my-element>
+      <p slot="header">传入的 header</p>
+      <p slot="main">传入的 main</p>
+      <p slot="footer">传入的 footer</p>
+    </my-element> -->
+
+    <!-- <p>全局红色文字</p> -->
+
+    <!-- <template id="template">
+      <div>
+        <header>
+          <slot name="header">default header</slot>
+        </header>
+
+        <main>
+          <slot name="main">default main</slot>
+        </main>
+
+        <footer>
+          <slot name="footer">default footer</slot>
+        </footer>
+      </div>
+    </template> -->
+
+    <!-- <script type="module" src="./src/ppt/customElement.ts"></script> -->
+    <!-- <script type="module" src="./src/ppt/shadowDom.ts"></script> -->
+    <!-- <script type="module" src="./src/ppt/template.ts"></script> -->
+
     <cxz-counter></cxz-counter>
 
     <script type="module" src="./build/cxz-counter.js"></script>

@@ -1,7 +1,7 @@
-import { html, css, LitElement } from "lit";
-import { customElement, property } from "lit/decorators.js";
+import { html, css, LitElement } from 'lit';
+import { customElement, property } from 'lit/decorators.js';
 
-@customElement("cxz-counter")
+@customElement('cxz-counter')
 export class CxzCounter extends LitElement {
   @property() public count = 0;
 
@@ -45,6 +45,6 @@ export class CxzCounter extends LitElement {
 
 declare global {
   interface HTMLElementTagNameMap {
-    "my-counter": CxzCounter;
+    'my-counter': CxzCounter;
   }
 }
